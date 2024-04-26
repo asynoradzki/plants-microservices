@@ -1,10 +1,11 @@
 # plants-microservices
 
 ## About The Project
-The Plants App allows users to search for plants in database and add them to their user profile to be remainded about plant care routines also by e-mail. New users can register in the app by Google or login/password depending on preferences. Additional feature is live chat on one of the available topics.
+The dedicated to plants lovers App allows users to search for their plants in database and add them to their user profile to be remainded about plant care routines (by UI and e-mail). New users can register by Google or login/password depending on preferences. Additional feature is live chat on one of the plants related topics.
 
 ## Technical Features
 Frontend:
+- React
 - Vite
 - Axios with interceptors
 - StompJs / SockJs-client
@@ -17,10 +18,12 @@ Frontend:
 - Google reCaptcha
 
 Backend:
+- Spring Boot
 - Microservices architecture
 - Eureka Discovery server
 - Api Gateway with Web Flux Spring Security Configuration and Custom Filter - JWT Token
-- Spring Security - Username/Password registration/login + OAuth2.0 Google registration/login
+- Spring Security - Username/Password registration/login
+- OAuth2.0 Google registration/login
 - Kafka Message Broker - email notifications
 - Websockets - live chat
 - Google reCaptcha
